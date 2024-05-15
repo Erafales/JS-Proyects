@@ -6,15 +6,43 @@
         <title>Web page 1</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="main.css">
     </head>
     <header>
         <h3>Esta será nuestra página donde recrearemos una páina de propinas</h3>
     </header>
     <body>
         <div id="main-div">
-            <p>Este es el div principal</p>
+            <h3>TIPS WebPage</h3>
+            <p>This web page have the propourse of learn to create code and webpages</p>
         </div>
-        <script src="" async defer></script>
+        <div id="tag-1-tips">
+            <div>
+                <h4>Online pay</h4>
+                <h4>Please complete the below formulary</h4>
+            </div>
+            <div>
+                <form>
+                    <p>Will you pay all together or splited?</p>
+                        <label for="RBY">Yes</label>
+                        <input type="radio" id="RBY" name="pay" value="yes" />
+                        <label for="RBN">No</label>
+                        <input type="radio" id="RBN" name="pay" value="no" />
+                    <br><br>
+                    <label for="NTA">How much was the total amount?</label>
+                        <input type="number" id="NTA"/>
+                    <br><br>
+                    <label for="NTC">How much people you where?</label>
+                        <input type="number" id="NTC"/>
+                    <br><br>
+                    <label for="">Do you want to give some tips?</label>
+                        <label for="TY">Yes</label>    
+                        <input type="radio" id="TY" name="tips" value="yes">
+                        <label for="TN">No</label>
+                        <input type="radio" id="TN" name="tips" value="no">
+                </form>
+            </div>
+        </div>
+        <script src="./script.js" async defer></script>
     </body>
 </html>

@@ -1,6 +1,6 @@
 # JS-tip
 
-This will be a simple tip web page made using
+This will be a simple calcualtor web page
 - HTML
 - CSS
 - JavaScript
@@ -8,8 +8,7 @@ This will be a simple tip web page made using
 # TO DO
 
 #### HTML
- - Add ids to tags
- - End the structure of the page 
+ - 
 #### CSS
  - Create css 
 

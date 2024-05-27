@@ -12,48 +12,27 @@
         <h3>Esta será nuestra página donde recrearemos una calculadora</h3>
     </header>
     <body>
-        <div id="main-div">
-            <table id="main-table">
-                <tr>
-                    <td colspan="4" id="print-result"></td>
-                </tr>
-                <tr id="normal-tr">
-                    <td><input type="button" value="%" onclick="ObtenerOperador('%')"/></td>
-                    <td><input type="button" value="CE" onclick="ObtenerOperador('CE')"/></td>
-                    <td><input type="button" value="C" onclick="ObtenerOperador('C')"/></td>
-                    <td><input type="button" value="RETURN" onclick="ObtenerOperador('RETURN')"/></td>
-                </tr>
-                <tr id="normal-tr">
-                    <td><input type="button" value="½" onclick="ObtenerOperador('/2')"/></td>
-                    <td><input type="button" value="SQR" onclick="ObtenerOperador('SQR')"/></td>
-                    <td><input type="button" value="√" onclick="ObtenerOperador('√')"/></td>
-                    <td><input type="button" value="/" onclick="ObtenerOperador('/')"/></td>
-                </tr>
-                <tr id="normal-tr">
-                    <td><input type="button" value="7" onclick="ObtenerNumero(7)"/></td>
-                    <td><input type="button" value="8" onclick="ObtenerNumero(8)"/></td>
-                    <td><input type="button" value="9" onclick="ObtenerNumero(9)"/></td>
-                    <td><input type="button" value="*" onclick="ObtenerOperador('*')"/></td>
-                </tr>
-                <tr id="normal-tr">
-                    <td><input type="button" value="4" onclick="ObtenerNumero(4)"/></td>
-                    <td><input type="button" value="5" onclick="ObtenerNumero(5)"/></td>
-                    <td><input type="button" value="6" onclick="ObtenerNumero(6)"/></td>
-                    <td><input type="button" value="-" onclick="ObtenerOperador('-')"/></td>
-                </tr>
-                <tr id="normal-tr">
-                    <td><input type="button" value="1" onclick="ObtenerNumero(1)"></td>
-                    <td><input type="button" value="2" onclick="ObtenerNumero(2)"></td>
-                    <td><input type="button" value="3" onclick="ObtenerNumero(3)"></td>
-                    <td><input type="button" value="+" onclick="ObtenerOperador('+')"></td>
-                </tr>
-                <tr id="normal-tr">
-                    <td><input type="button" value="+/-" onclick="ObtenerOperador('+/-')"></td>
-                    <td><input type="button" value="0" onclick="ObtenerNumero(0)"></td>
-                    <td><input type="button" value="," onclick="ObtenerOperador(',')"></td>
-                    <td><input type="button" value="=" onclick="ObtenerOperador('=')"></td>
-                </tr>
-            </table>
+        <div id="calculator">
+            <input id="display" readonly>
+            <div id="keys">
+                <button onclick="appendToDisplay('+')">+</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button onclick="appendToDisplay('-')">-</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button onclick="appendToDisplay('*')">*</button>
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button onclick="appendToDisplay('/')">/</button>
+                <button onclick="appendToDisplay('0')">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="clearDisplay()">C</button>
+            </div>
         </div>
         <script src="./script.js" async defer></script>
     </body>

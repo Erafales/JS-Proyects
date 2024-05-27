@@ -1,6 +1,6 @@
 # JS-tip
 
-This will be a simple calcualtor web page
+This is a more simple JS calculator
 - HTML
 - CSS
 - JavaScript
@@ -13,4 +13,3 @@ This will be a simple calcualtor web page
  - Create css 
 
 #### JS
- - Create all the logic of the Js

@@ -8,8 +8,5 @@ This is a more simple JS calculator
 # TO DO
 
 #### HTML
- - 
 #### CSS
- - Create css 
-
 #### JS

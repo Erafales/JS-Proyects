@@ -1,0 +1,33 @@
+body{
+    max-width: 40%;
+}
+#toDoTasks{
+    border: 1px solid black;
+    background-color: rgb(13, 139, 197);
+}
+#toDoTasks h1 {
+    color: rgb(13, 139, 197);
+    background-color: rgb(255,255,255);
+    text-align: center;
+}
+#inputTask {
+    text-decoration: none;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px; 
+    margin: 2%;
+}
+#addToDo{
+    text-decoration: none;
+    background-color: rgb(255,255,255);
+    border-radius: 50%;
+    width: 80px;
+}
+#tableOfTasks{
+    background-color: rgb(255,255,255);    
+}
+#tableOfTasks p{
+    text-align: center;
+    padding-bottom: 4%;
+    color: rgb(13, 139, 197);
+    border-bottom: 1px solid black;
+}

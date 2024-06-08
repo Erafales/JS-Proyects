@@ -27,7 +27,7 @@ body{
 }
 #tableOfTasks p{
     text-align: center;
-    padding-bottom: 4%;
+    padding-bottom: 1%;
     color: rgb(13, 139, 197);
     border-bottom: 1px solid black;
 }

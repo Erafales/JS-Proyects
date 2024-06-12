@@ -1,5 +1,7 @@
-# Proyects
+# Proyectos
 
- - Calculator
+ - Página para explicar HTML
+ - Calculadora
  - To Do List
+
  

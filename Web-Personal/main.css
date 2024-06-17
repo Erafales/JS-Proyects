@@ -1,0 +1,15 @@
+html{
+    height: 100%;
+}
+body{
+    padding: 2%;
+    background: rgb(5,3,38);
+    background: linear-gradient(0deg, rgba(5,3,38,0.9542017490589986) 19%, rgba(9,9,121,1) 55%, rgba(9,14,124,1) 70%, rgba(0,41,255,1) 100%);
+    color: white;
+}
+#Cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}

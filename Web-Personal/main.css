@@ -1,6 +1,7 @@
 body {
     background-color: #081b29;
     color: #ededed;
+    overflow: hidden;
 }
 .cabecera {
     position: fixed;
